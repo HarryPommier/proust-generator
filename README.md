@@ -12,12 +12,19 @@
   </a>
 </p>
 
-> Text generation by AI in the style of Marcel Proust. 
+> Text generation by AI in the style of Marcel Proust. Train an LSTM type model to predict the end of a seed sentence. NLP problem based on the work of the French writer, Marcel Proust, *A La Recherche du Temps Perdu*.
 
 ## Usage
 
 ```sh
 jupyter-notebook proust-generator.ipynb
+```
+
+## Example
+
+```text
+seed_text = "Longtemps je me suis couché tard,"
+-> prediction: "Longtemps je me suis couché tard, qu’est ce que je n’avais pas eu là."
 ```
 
 ## Author
